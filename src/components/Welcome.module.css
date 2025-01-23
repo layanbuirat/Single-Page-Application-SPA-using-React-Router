@@ -1,0 +1,49 @@
+.welcomeSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Full viewport height */
+    background-color: #82cdb3; /* Dark background color */
+    color: white; /* Text color */
+    text-align: center;
+  }
+  
+  .welcomeContent {
+    max-width: 800px;
+    padding: 20px;
+  }
+  
+  .logo {
+    width: 150px; /* Adjust the size as needed */
+    height: auto;
+    margin-bottom: 20px; /* Space between the logo and the h1 */
+  }
+  
+  .welcomeContent h1 {
+    font-size: 4rem;
+    margin-bottom: 20px;
+  }
+  
+  .starDivider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .starLine {
+    flex: 1;
+    height: 2px;
+    background-color: white; /* White lines */
+    margin: 0 10px;
+  }
+  
+  .starIcon {
+    font-size: 2rem;
+    color: white; /* White star */
+  }
+  
+  .welcomeContent p {
+    font-size: 1.5rem;
+    margin-top: 20px;
+  }
